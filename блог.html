@@ -1,0 +1,102 @@
+<!-- Личный блог -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный блог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .post {
+            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+        .post:hover {
+            transform: scale(1.02);
+        }
+        .post h2 {
+            color: #222;
+            font-size: 24px;
+        }
+        .post p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+        .sidebar {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #444;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background: #2575fc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #6a11cb;
+        }
+    </style>
+</head>
+<body>
+    <header>Личный блог</header>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Обо мне</h3>
+            <p>Привет! Я блогер и разработчик. Здесь я делюсь своими мыслями и опытом.</p>
+        </div>
+        <div class="post">
+            <h2>Первая запись</h2>
+            <p>Это мой первый пост в блоге. Добро пожаловать!</p>
+            <a href="#" class="button">Читать далее</a>
+        </div>
+        <div class="post">
+            <h2>Вторая запись</h2>
+            <p>Сегодня отличный день для написания кода.</p>
+            <a href="#" class="button">Читать далее</a>
+        </div>
+        <div class="footer">&copy; 2025 Мой блог. Все права защищены.</div>
+    </div>
+</body>
+</html>
